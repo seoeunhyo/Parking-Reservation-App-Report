@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/text"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#82CBF6"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        android:layout_gravity="left|center_vertical"
+        android:layout_margin="5sp"
+        android:background="#BCC7CF"
+        android:drawableLeft="@drawable/watchsize"
+        android:drawablePadding="18dip"
+        android:onClick="onClick"
+        android:paddingLeft="18dp"
+        android:text="예약하기"
+        android:textColor="#050000"
+        android:textColorHighlight="#E6E3E3"
+        android:textSize="40sp"
+        app:rippleColor="#070707"
+
+        app:strokeColor="#F3EFEF" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="184dp"
+        android:layout_gravity="left|center_vertical"
+        android:layout_margin="5sp"
+        android:background="#8FACC2"
+        android:drawableLeft="@drawable/checkboxsize"
+        android:drawablePadding="18dip"
+        android:paddingLeft="18dp"
+        android:text="마이페이지"
+        android:textColor="#0C0000"
+        android:textColorHighlight="#E6E3E3"
+        android:textSize="40sp"
+        app:rippleColor="#F4EFEF"
+        app:strokeColor="#F3EFEF" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:text="고객 센터 0000 - 0000"
+        android:textColor="#150101"
+        android:textColorHint="#F6F1F1"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="위치 : 서울시 강서구 화곡동 "
+        android:textColor="#0C0000"
+        android:textSize="18sp" />
+
+</LinearLayout>
