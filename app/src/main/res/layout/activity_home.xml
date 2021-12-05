@@ -37,6 +37,7 @@
         android:background="#8FACC2"
         android:drawableLeft="@drawable/checkboxsize"
         android:drawablePadding="18dip"
+        android:onClick="onClick2"
         android:paddingLeft="18dp"
         android:text="마이페이지"
         android:textColor="#0C0000"
